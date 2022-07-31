@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box; 
+}
+.boxcenter{
+    width: 70%;
+    margin: 0 auto;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.mr{
+    margin-right: 2%;
+}
+.mb{
+    margin-bottom: 30px;
+}
+.demo{
+    background-color: aliceblue;
+    min-height: 100px;
+}
+
+/**/
+.header{
+    background-color: bisque;
+    border: 1px solid rgb(186, 104, 104);
+    font-size: 1vw;
+    color: blue;
+    border-radius: 5px;
+}
+
+.menu{
+    background-color: rgb(15, 15, 14);
+    border: 1px solid rgb(186, 104, 104);
+    font-size: 1vw;
+    color: white;
+    border-radius: 5px;
+}
+
+.box-left{
+    float: left;
+    width: 74%;
+}
+.box-right{
+    float: left;
+    width: 24%;
+}
+
+
+.footer{
+    background-color: rgb(77, 57, 33);
+    border: 1px solid rgb(186, 104, 104);
+    font-size: 1vw;
+    color: rgb(140, 140, 147);
+    border-radius: 5px;
+}
+
+.box-title{
+    background-color: gray;
+    border-radius: 3px;
+    border: 1px solid #312f2f;
+    padding: 10px;
+}
+.box-content{
+    border: 1px solid #CCC;
+    min-height: 200px;
+    padding: 20px;
+}
+.box-content2{
+    border: 1px solid #CCC;
+    min-height: 200px;
+}
+.box-footer{
+    background-color: #CCC;
+    padding: 10px;
+}
+
+.banner{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    height: 300px;
+
+}
+.box-product{
+    float: left;
+    width: 32%;
+    min-height: 200px;
+    border: 1px #EEE solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.box-product img{
+    height: 100px;    
+}
+.box-product .img{
+    min-height: 150px;
+    text-align: center;
+}
+
+.menu ul{
+    padding: 5px;    
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+}
+.menu ul li a{
+    color: #CCC;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: #EEE;
+    font-size: 1vw;
+}
+
+/*Tài khoản*/
+.formtaikhoan input[type="text"], 
+.formtaikhoan input[type="password"]{
+    width: 100%;
+    border: 1px solid #312f2f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/*Danh mục*/
+.category ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+.category ul li{
+    padding: 10px 20px;
+    background-color: aliceblue;
+    border-bottom: 1px solid #312f2f;
+}
+.searchbox input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+/*Top10*/
+.top10 img{
+    width: 20%;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+}
+
+/*admin*/
+
